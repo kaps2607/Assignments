@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Training Program on .NET\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj": {}
+    "C:\\Training Program on .NET\\Assignments\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj": {}
   },
   "projects": {
-    "C:\\Training Program on .NET\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj": {
+    "C:\\Training Program on .NET\\Assignments\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Training Program on .NET\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj",
+        "projectUniqueName": "C:\\Training Program on .NET\\Assignments\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj",
         "projectName": "Assignment1, 2 & 3",
-        "projectPath": "C:\\Training Program on .NET\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj",
+        "projectPath": "C:\\Training Program on .NET\\Assignments\\AssignmentDay1\\Assignment1\\Assignment1, 2 & 3.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Training Program on .NET\\AssignmentDay1\\Assignment1\\obj\\",
+        "outputPath": "C:\\Training Program on .NET\\Assignments\\AssignmentDay1\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

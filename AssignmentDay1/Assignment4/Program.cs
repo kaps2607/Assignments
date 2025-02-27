@@ -21,11 +21,7 @@
             {
                 Console.WriteLine("Invalid date format! Please enter a valid date.");
             }
-            else
-            {
-
-            }
-            Console.WriteLine(disDate);
+            
 
             
 
