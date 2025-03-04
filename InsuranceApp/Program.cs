@@ -11,7 +11,7 @@ namespace InsuranceApp
 
             while (true)
             {
-                Console.WriteLine("===Insurance Policy Menu===");
+                Console.WriteLine("\n===Insurance Policy Menu===");
                 Console.WriteLine("1. Add Policy");
                 Console.WriteLine("2. View all Policies");
                 Console.WriteLine("3. Search Policy by Id");
@@ -54,11 +54,16 @@ namespace InsuranceApp
                             break;
 
                         case 4:
-                            Console.Write("Enter Polidy Id: ");
+                            Console.Write("Enter Policy Id: ");
                             int updateId = Convert.ToInt32(Console.ReadLine());
                             Console.Write("Enter new Holder name: ");
                             string newName = Console.ReadLine();
-                            repo.UpdatePolicy(updateId, newName);
+                            PolicyType newType = (PolicyType)Enum.Parse(typeof(PolicyType), Console.ReadLine(), true);
+                            Console.Write("Start Date(yyyy-mm-dd): ");
+                            DateTime newStart = DateTime.Parse(Console.ReadLine());
+                            Console.Write("End Date(yyyy-mm-dd): ");
+                            DateTime newEnd = DateTime.Parse(Console.ReadLine());
+                            repo.UpdatePolicy(new Policy(updateId, newName, newType, newStart, newEnd));
                             break;
 
                         case 5:

@@ -20,7 +20,7 @@ namespace InsuranceApp.Repositories
                 return;
             }
             policies.Add(policy);
-            Console.WriteLine("Policy added successfully!!");
+            Console.WriteLine("\nPolicy added successfully!!");
         }
 
         public List<Policy> GetAllPolicies() => policies;
@@ -35,11 +35,22 @@ namespace InsuranceApp.Repositories
             return policy;
         }
 
-        public void UpdatePolicy(int id, string name)
+        //public void UpdatePolicy(int id, string name)
+        //{
+        //    var policy = SearchPolicy(id);
+        //    policy.PolicyHolderName = name;
+        //    Console.WriteLine("Policy Updated successfully.");
+        //}
+
+        public void UpdatePolicy(Policy policy)
         {
-            var policy = SearchPolicy(id);
-            policy.PolicyHolderName = name;
-            Console.WriteLine("Policy Updated successfully.");
+            if (!(policies.Any(p => p.PolicyId == policy.PolicyId)))
+            {
+                Console.WriteLine("Policy Id does not exist.");
+                return;
+            }
+            policies.Add(policy);
+            Console.WriteLine("\nPolicy updated successfully!!");
         }
         public void DeletePolicy(int id) 
         { 

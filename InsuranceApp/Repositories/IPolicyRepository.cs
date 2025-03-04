@@ -12,7 +12,7 @@ namespace InsuranceApp.Repositories
         void AddPolicy(Policy policy);
         List<Policy> GetAllPolicies();
         Policy SearchPolicy(int id);
-        void UpdatePolicy(int id, string name);
+        void UpdatePolicy(Policy policy);
         void DeletePolicy(int id);
         List<Policy> GetActivePolicies();
     }
