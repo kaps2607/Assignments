@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Training Program on .NET\\AssignmentDay6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD90E55-A80C-4786-9CE8-35C224C3BC87}|Task\\Task.csproj|c:\\training program on .net\\assignmentday6\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD90E55-A80C-4786-9CE8-35C224C3BC87}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD90E55-A80C-4786-9CE8-35C224C3BC87}|Task\\Task.csproj|c:\\training program on .net\\assignmentday6\\task\\model\\bankqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD90E55-A80C-4786-9CE8-35C224C3BC87}|Task\\Task.csproj|solutionrelative:task\\model\\bankqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankQueue.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\AssignmentDay6\\Task\\Model\\BankQueue.cs",
+              "RelativeDocumentMoniker": "Task\\Model\\BankQueue.cs",
+              "ToolTip": "C:\\Training Program on .NET\\AssignmentDay6\\Task\\Model\\BankQueue.cs",
+              "RelativeToolTip": "Task\\Model\\BankQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T09:03:07.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\AssignmentDay6\\Task\\Program.cs",
+              "RelativeDocumentMoniker": "Task\\Program.cs",
+              "ToolTip": "C:\\Training Program on .NET\\AssignmentDay6\\Task\\Program.cs",
+              "RelativeToolTip": "Task\\Program.cs",
+              "ViewState": "AgIAAAwAAAAgmZmZmZktwB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:00:09.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
