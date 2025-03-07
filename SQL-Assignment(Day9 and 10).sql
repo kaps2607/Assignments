@@ -164,15 +164,24 @@ join Orders O on C.CustomerId=O.CustomerId
 group by C.Name
 
 --Find the books ordered along with the quantity for each order.
+select O.OrderId, B.Title as BookTitle, OI.Quantity
+from Orders O
+join OrderItems OI on O.OrderId = OI.OrderId
+join Books B on OI.BookId = B.BookId;
 
 
 
 --Display all customers, even those who haven’t placed any orders.
 select * from Customers
 
+
 --Find authors who have not written any books 
-
-
-
-
+select * from Authors
+select * from Books
+insert into Authors values('Jonny Lever','India')
+select A.Name
+from Authors A
+left join Books B 
+on A.AuthorId=B.AuthorId 
+where B.AuthorId is null
 

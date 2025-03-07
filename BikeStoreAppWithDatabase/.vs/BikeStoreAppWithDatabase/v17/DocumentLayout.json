@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Training Program on .NET\\Assignments\\BikeStoreAppWithDatabase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29472C5E-E068-40CA-947B-DDC4FCF0F4A1}|BikeAPPFramework\\BikeAPPFramework.csproj|c:\\training program on .net\\assignments\\bikestoreappwithdatabase\\bikeappframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29472C5E-E068-40CA-947B-DDC4FCF0F4A1}|BikeAPPFramework\\BikeAPPFramework.csproj|solutionrelative:bikeappframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\BikeStoreAppWithDatabase\\BikeAPPFramework\\Program.cs",
+              "RelativeDocumentMoniker": "BikeAPPFramework\\Program.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\BikeStoreAppWithDatabase\\BikeAPPFramework\\Program.cs",
+              "RelativeToolTip": "BikeAPPFramework\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:34:22.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
