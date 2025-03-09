@@ -12,6 +12,7 @@ namespace BooksApp.Repositories
     {
         SqlConnection con = null;
         SqlCommand command = null;
+
         public List<Books> GetAllBooks()
         {
             List<Books> books = new List<Books>();
@@ -22,13 +23,17 @@ namespace BooksApp.Repositories
             SqlDataReader reader = command.ExecuteReader();
             while (reader.Read()) 
             { 
+                
                 Books obj=new Books();
                 obj.BookId = (int)reader["BookId"];
                 obj.Title= (string)reader["Title"];
                 obj.Price = (int)reader["Price"];
                 obj.PublishedYear = (int)reader["PublishedYear"];
-                   
+                books.Add(obj);
+                
             }
+            con.Close();
+            return books;
         }
     }
 }

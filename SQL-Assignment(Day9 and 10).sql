@@ -185,3 +185,79 @@ left join Books B
 on A.AuthorId=B.AuthorId 
 where B.AuthorId is null
 
+
+--SubQueries
+--Find the customer(s) who placed the first order (earliest OrderDate)
+select * from Customers
+select * from Orders
+
+select C.Name 
+from Customers C
+join Orders O
+on C.CustomerId=O.CustomerId
+where O.OrderDate=(select min(OrderDate) from Orders)
+
+
+--Find the customer(s) who placed the most orders
+select C.CustomerId, C.Name
+from CUstomers C
+join Orders O on C.CustomerId=O.CustomerId
+group by C.CustomerId, C.Name
+having count(O.OrderId)=(select max(order_count) 
+from (select count(O.OrderId) as order_count
+from Orders O
+group by O.CustomerId) as OrderCounts);
+
+insert into Orders values(3,'2025-02-28',1800)
+select * from Orders
+
+
+
+--Find customers who have not placed any ordersselect * from Customers C 
+left join Orders O 
+on C.CustomerId=O.OrderId
+where O.CustomerId is null
+
+
+--Retrieve all books cheaper than the most expensive book written by( any author based on your data)
+select * from Books where Price !=(select max(Price) from Books)
+
+
+--List all customers whose total spending is greater than the average spending of all customers
+select C.Name, O.TotalAmount from Customers C
+full join Orders O on C.CustomerId=O.CustomerId
+group by C.CustomerId, C.Name, C.Email, C.PhoneNumber, O.TotalAmount
+having sum(O.TotalAmount)> (select avg(TotalAmount) from Orders)
+
+
+
+--Stored Procedures
+--Write a stored procedure that accepts a CustomerID and returns all orders placed by that customer
+create Procedure GetOrdersByCustomerId @CustomerId int
+as
+begin
+select O.* from Orders O full join Customers C on C.CustomerId=O.CustomerId
+where O.CustomerId = @CustomerId
+end
+
+exec GetOrdersByCustomerId 3
+
+
+--Create a procedure that accepts MinPrice and MaxPrice as parameters and returns all books within that range
+create proc GetBooksByPriceRange @MinPrice int, @MaxPrice int
+as
+begin
+select * from Books where Price between @MinPrice and @MaxPrice
+end
+
+exec GetBooksByPriceRange 2000,2500
+
+
+--Views
+--Create a view named AvailableBooks that shows only books that are in
+--stock, including BookID, Title, AuthorID, Price, and PublishedYear 
+create view AvailableBooks as
+select * from Books where 
+
+select * from Books
+

@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|c:\\training program on .net\\assignments\\demo_adobooks\\booksapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|solutionrelative:booksapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|c:\\training program on .net\\assignments\\demo_adobooks\\booksapp\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|solutionrelative:booksapp\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|c:\\training program on .net\\assignments\\demo_adobooks\\booksapp\\repositories\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|solutionrelative:booksapp\\repositories\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|c:\\training program on .net\\assignments\\demo_adobooks\\booksapp\\repositories\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A0478A-6EFD-4367-9511-2FA2E566ADEE}|BooksApp\\BooksApp.csproj|solutionrelative:booksapp\\repositories\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRepo.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Repositories\\BookRepo.cs",
+              "RelativeDocumentMoniker": "BooksApp\\Repositories\\BookRepo.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Repositories\\BookRepo.cs",
+              "RelativeToolTip": "BooksApp\\Repositories\\BookRepo.cs",
+              "ViewState": "AgIAABUAAAAg//////8fwBwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:14:54.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookRepo.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Repositories\\IBookRepo.cs",
+              "RelativeDocumentMoniker": "BooksApp\\Repositories\\IBookRepo.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Repositories\\IBookRepo.cs",
+              "RelativeToolTip": "BooksApp\\Repositories\\IBookRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:12:41.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Model\\Books.cs",
+              "RelativeDocumentMoniker": "BooksApp\\Model\\Books.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Model\\Books.cs",
+              "RelativeToolTip": "BooksApp\\Model\\Books.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgPQ0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:11:45.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Program.cs",
+              "RelativeDocumentMoniker": "BooksApp\\Program.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Demo_ADOBooks\\BooksApp\\Program.cs",
+              "RelativeToolTip": "BooksApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:11:02.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

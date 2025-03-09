@@ -10,8 +10,8 @@ namespace BooksApp.Model
     {
         public int BookId { get; set; }
         public string Title { get; set; }
-        public int Price { get; set; }
-        public int PublishedYear { get; set; }
+        public int? Price { get; set; }
+        public int? PublishedYear { get; set; }
 
         public override string ToString()
         {
