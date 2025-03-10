@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\repositories\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\repositories\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\repositories\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\repositories\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\utility\\dbconnutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\utility\\dbconnutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\exceptions\\policynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\exceptions\\policynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|c:\\training program on .net\\assignments\\insuranceappwithdb\\insuranceappdb\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80906651-26DD-4063-AA5D-4DD13CD90109}|InsuranceAppDB\\InsuranceAppDB.csproj|solutionrelative:insuranceappdb\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolicyRepository.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Repositories\\PolicyRepository.cs",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\Repositories\\PolicyRepository.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Repositories\\PolicyRepository.cs",
+              "RelativeToolTip": "InsuranceAppDB\\Repositories\\PolicyRepository.cs",
+              "ViewState": "AgIAAFkAAACAMDMzMzMnwGEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:37:38.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\appsettings.json",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\appsettings.json",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\appsettings.json",
+              "RelativeToolTip": "InsuranceAppDB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T10:46:21.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbConnUtil.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Utility\\DbConnUtil.cs",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\Utility\\DbConnUtil.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Utility\\DbConnUtil.cs",
+              "RelativeToolTip": "InsuranceAppDB\\Utility\\DbConnUtil.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAABYPQsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:02:18.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Models\\Policy.cs",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\Models\\Policy.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Models\\Policy.cs",
+              "RelativeToolTip": "InsuranceAppDB\\Models\\Policy.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:38:15.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPolicyRepository.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Repositories\\IPolicyRepository.cs",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\Repositories\\IPolicyRepository.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Repositories\\IPolicyRepository.cs",
+              "RelativeToolTip": "InsuranceAppDB\\Repositories\\IPolicyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:35:54.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PolicyNotFoundException.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Exceptions\\PolicyNotFoundException.cs",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\Exceptions\\PolicyNotFoundException.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Exceptions\\PolicyNotFoundException.cs",
+              "RelativeToolTip": "InsuranceAppDB\\Exceptions\\PolicyNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:40:33.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Program.cs",
+              "RelativeDocumentMoniker": "InsuranceAppDB\\Program.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppwithDB\\InsuranceAppDB\\Program.cs",
+              "RelativeToolTip": "InsuranceAppDB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:31:03.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
