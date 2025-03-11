@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|c:\\training program on .net\\assignments\\insuranceappfromscratchdb\\insurancedb\\repository\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|solutionrelative:insurancedb\\repository\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|c:\\training program on .net\\assignments\\insuranceappfromscratchdb\\insurancedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|solutionrelative:insurancedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|c:\\training program on .net\\assignments\\insuranceappfromscratchdb\\insurancedb\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|solutionrelative:insurancedb\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|c:\\training program on .net\\assignments\\insuranceappfromscratchdb\\insurancedb\\interfaces\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|solutionrelative:insurancedb\\interfaces\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|c:\\training program on .net\\assignments\\insuranceappfromscratchdb\\insurancedb\\jsconfig1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|solutionrelative:insurancedb\\jsconfig1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|c:\\training program on .net\\assignments\\insuranceappfromscratchdb\\insurancedb\\utility\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFFEBEF-F3ED-4520-826C-097A43DCD1ED}|InsuranceDB\\InsuranceDB.csproj|solutionrelative:insurancedb\\utility\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Utility\\DbConnection.cs",
+              "RelativeDocumentMoniker": "InsuranceDB\\Utility\\DbConnection.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Utility\\DbConnection.cs",
+              "RelativeToolTip": "InsuranceDB\\Utility\\DbConnection.cs",
+              "ViewState": "AgIAAAsAAAAAzMzMzMwiwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:42:29.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jsconfig1.json",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\jsconfig1.json",
+              "RelativeDocumentMoniker": "InsuranceDB\\jsconfig1.json",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\jsconfig1.json",
+              "RelativeToolTip": "InsuranceDB\\jsconfig1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T04:44:37.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolicyRepository.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Repository\\PolicyRepository.cs",
+              "RelativeDocumentMoniker": "InsuranceDB\\Repository\\PolicyRepository.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Repository\\PolicyRepository.cs",
+              "RelativeToolTip": "InsuranceDB\\Repository\\PolicyRepository.cs",
+              "ViewState": "AgIAABQAAADA/P////8jwCEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:55:08.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPolicyRepository.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Interfaces\\IPolicyRepository.cs",
+              "RelativeDocumentMoniker": "InsuranceDB\\Interfaces\\IPolicyRepository.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Interfaces\\IPolicyRepository.cs",
+              "RelativeToolTip": "InsuranceDB\\Interfaces\\IPolicyRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:50:05.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Models\\Policy.cs",
+              "RelativeDocumentMoniker": "InsuranceDB\\Models\\Policy.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Models\\Policy.cs",
+              "RelativeToolTip": "InsuranceDB\\Models\\Policy.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA0wBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:44:31.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Program.cs",
+              "RelativeDocumentMoniker": "InsuranceDB\\Program.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\InsuranceAppfromScratchDB\\InsuranceDB\\Program.cs",
+              "RelativeToolTip": "InsuranceDB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:42:56.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
