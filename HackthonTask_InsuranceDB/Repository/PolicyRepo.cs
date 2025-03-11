@@ -57,7 +57,8 @@ namespace HackthonTask.Repository
                 {
                 
 
-                cmd.CommandText = "Delete from Policys where PolicyID=@Id";
+                cmd.CommandText = "Delete from Policys where PolicyId=@Id";
+                    cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@Id",id);
                 cmd.Connection = sqlConnection;
                 sqlConnection.Open();
@@ -186,6 +187,7 @@ namespace HackthonTask.Repository
                         Console.WriteLine("Enter End Date(yyyy-mm-dd)");
                         DateTime edate = Convert.ToDateTime(Console.ReadLine());
                         cmd.CommandText = "Update Policys set PolicyHolderName=@Name,PolicyType=@Type,EndDate=@Edate where PolicyID=@Id";
+                        cmd.Parameters.Clear();
                         cmd.Parameters.AddWithValue("@Name", name);
                         cmd.Parameters.AddWithValue("@Type", type.ToString());
                         cmd.Parameters.AddWithValue("@Edate", edate);

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Training Program on .NET\\Assignments\\HackthonTask_InsuranceDB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{110BA8C0-8DC2-48D7-B216-91B86903D981}|HackthonTask.csproj|c:\\training program on .net\\assignments\\hackthontask_insurancedb\\repository\\policyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110BA8C0-8DC2-48D7-B216-91B86903D981}|HackthonTask.csproj|solutionrelative:repository\\policyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{110BA8C0-8DC2-48D7-B216-91B86903D981}|HackthonTask.csproj|c:\\training program on .net\\assignments\\hackthontask_insurancedb\\appsetting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{110BA8C0-8DC2-48D7-B216-91B86903D981}|HackthonTask.csproj|solutionrelative:appsetting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PolicyRepo.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\HackthonTask_InsuranceDB\\Repository\\PolicyRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\PolicyRepo.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\HackthonTask_InsuranceDB\\Repository\\PolicyRepo.cs",
+              "RelativeToolTip": "Repository\\PolicyRepo.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAArwFwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:14:15.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppSetting.json",
               "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\HackthonTask_InsuranceDB\\AppSetting.json",
               "RelativeDocumentMoniker": "AppSetting.json",
