@@ -1,0 +1,14 @@
+﻿@model Clinical_Appointment_System.Models.Appointment
+
+@{
+    ViewData["Title"] = "Delete Appointment";
+}
+
+<h2>Cancel Appointment</h2>
+
+<p>Are you sure you want to cancel your appointment with <strong>@Model.Doctor.Name</strong> on <strong>@Model.AppointmentDate.ToString("yyyy-MM-dd")</strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Cancel Appointment</button>
+</form>

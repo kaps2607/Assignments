@@ -1,0 +1,19 @@
+﻿@model Clinical_Appointment_System.ViewModel.BookAppointmentViewModel
+
+<h2>Book an Appointment</h2>
+
+<form asp-action="Book">
+    <label>Select Doctor</label>
+    <select asp-for="DoctorId" class="form-control">
+        <option value="">-- Choose a Doctor --</option>
+        @foreach (var doctor in Model.Doctors)
+        {
+            <option value="@doctor.Id">@doctor.Name - @doctor.Specialty</option>
+        }
+    </select>
+
+    <label>Appointment Date</label>
+    <input type="date" asp-for="AppointmentDate" class="form-control" />
+
+    <button type="submit" class="btn btn-primary">Book</button>
+</form>
