@@ -29,7 +29,7 @@ else
             {
                 <tr>
                     <td>@appointment.Doctor.Name</td>
-                    <td>@appointment.AppointmentDate.ToString("yyyy-MM-dd")</td>
+                    <td>@appointment.AppointmentDate.ToLocalTime()</td>
                     <td>@appointment.Status</td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@appointment.Id" class="btn btn-warning">Edit</a>

@@ -9,7 +9,7 @@ namespace Clinical_Appointment_System.ViewModel
         [Required]
         public int DoctorId { get; set; }
         [Required]
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         public DateTime AppointmentDate { get; set; }
         [Required]
         public AppointmentStatus Status { get; set; }

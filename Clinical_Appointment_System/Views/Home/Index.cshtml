@@ -1,8 +1,54 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 fw-bold text-primary">Welcome to Clinical Appointment System</h1>
+        <p class="lead text-muted">Effortless appointment scheduling for doctors and patients</p>
+        <a href="/Appointment/Book" class="btn btn-primary btn-lg mt-3">Book an Appointment</a>
+    </div>
+
+    <div class="row mt-5 text-center">
+        <div class="col-md-6">
+            <div class="card shadow p-4 border-0">
+                <h3 class="text-success">For Patients</h3>
+                <p>Book appointments with expert doctors at your convenience.</p>
+                <a href="/Account/Register" class="btn btn-outline-success">Register as Patient</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow p-4 border-0">
+                <h3 class="text-warning">For Doctors</h3>
+                <p>Manage appointments and provide the best care to your patients.</p>
+                <a href="/Account/Register" class="btn btn-outline-warning">Register as Doctor</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <h2 class="text-center">What Our Users Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <p>“This system made it so easy to book an appointment with my doctor!”</p>
+                    <p class="fw-bold">- Rahul Mehta</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <p>“Managing my schedule has never been this seamless. Great platform!”</p>
+                    <p class="fw-bold">- Dr. Sneha Sharma</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <p>“I highly recommend this system to all my colleagues.”</p>
+                    <p class="fw-bold">- Dr. Ramesh Patil</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

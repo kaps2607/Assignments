@@ -26,6 +26,7 @@ namespace Clinical_Appointment_System.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel user)
         {
+            ModelState.Remove("Role");
             if (ModelState.IsValid)
             {
                 var createdUser = new User
@@ -38,11 +39,12 @@ namespace Clinical_Appointment_System.Controllers
                 var result = await _userManager.CreateAsync(createdUser, user.Password);
                 if (result.Succeeded)
                 {
-                    if (!await _roleManager.RoleExistsAsync(UserRole.Patient))
-                    {
-                        await _roleManager.CreateAsync(new IdentityRole(UserRole.Patient)); // Ensure role exists
-                    }
+                    //if (!await _roleManager.RoleExistsAsync(UserRole.Patient))
+                    //{
+                    //    await _roleManager.CreateAsync(new IdentityRole(UserRole.Patient)); // Ensure role exists
+                    //}
                     await _userManager.AddToRoleAsync(createdUser, UserRole.Patient);
+                    
                     return RedirectToAction("LogIn");
                 }
                 foreach (var error in result.Errors)
@@ -71,6 +73,9 @@ namespace Clinical_Appointment_System.Controllers
             }
             return View(loginModel);
         }
+
+
+
         public async Task<IActionResult> LogOut()
         {
             await _signInManger.SignOutAsync();

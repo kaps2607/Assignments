@@ -19,5 +19,8 @@ namespace Clinical_Appointment_System.ViewModel
         [Display(Name = "Confirm Password")]
         [Compare("Password", ErrorMessage = "Password and Confirm Password did not match")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        public String Role { get; set; }
     }
 }
