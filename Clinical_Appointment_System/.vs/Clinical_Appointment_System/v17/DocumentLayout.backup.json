@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|c:\\training program on .net\\assignments\\clinical_appointment_system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C24D43-CD87-42E1-A4BA-C8DFB3284781}|Clinical_Appointment_System.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,93 +42,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABgAAAAAmJmZmZkXwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:37:47.695Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T11:11:56.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Models\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ContactViewModel.cs",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Models\\ContactViewModel.cs",
+              "RelativeToolTip": "Models\\ContactViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:26:31.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogIn.cshtml",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Account\\LogIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\LogIn.cshtml",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Account\\LogIn.cshtml",
-              "RelativeToolTip": "Views\\Account\\LogIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T11:42:39.916Z"
+              "WhenOpened": "2025-03-25T07:23:28.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA6AAAAAAAAAA==",
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T11:36:45.186Z",
+              "WhenOpened": "2025-03-25T06:59:45.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAYmZmZmYkwCwAAAA/AAAAAAAAAA==",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAwAAAAALDMzMzMLwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T11:21:31.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T11:16:22.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Appointment\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Appointment\\Index.cshtml",
-              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Appointment\\Index.cshtml",
-              "RelativeToolTip": "Views\\Appointment\\Index.cshtml",
-              "ViewState": "AgIAAAsAAADAZWZmZmYkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T11:08:20.595Z"
+              "WhenOpened": "2025-03-25T06:47:34.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,21 +104,49 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAZmZmZmYSwCoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAABgZmZmZmYwwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T11:07:53.221Z"
+              "WhenOpened": "2025-03-25T06:14:27.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAIAAAAAMTMzMzMLwA8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAACAmJmZmZkswC0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T10:28:35.218Z"
+              "WhenOpened": "2025-03-25T06:13:59.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAABA/v///38pwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T06:08:33.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Training Program on .NET\\Assignments\\Clinical_Appointment_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACYAAACImZmZmZkdwC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T11:21:31.368Z",
+              "EditorCaption": ""
             }
           ]
         }

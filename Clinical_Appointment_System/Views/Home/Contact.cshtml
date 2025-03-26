@@ -1,0 +1,58 @@
+﻿@model Clinical_Appointment_System.Models.ContactViewModel
+@{
+	ViewData["Title"] = "Contact Us";
+}
+
+<div class="container mt-5">
+	<h1 class="text-center mb-4">Contact Us</h1>
+
+	<div class="row">
+
+		<div class="col-md-6">
+			<h4>Get in Touch</h4>
+			<p>If you have any questions, feel free to reach out.</p>
+			<ul class="list-group">
+				<li class="list-group-item"><strong>Email:</strong> support@clinic.com</li>
+				<li class="list-group-item"><strong>Phone:</strong> +91 93739 78282</li>
+				<li class="list-group-item"><strong>Address:</strong> Sector 17, Clinic Street, Navi Mumbai, India</li>
+			</ul>
+		</div>
+		@if (TempData["SuccessMessage"] != null)
+		{
+			<div class="alert alert-success">@TempData["SuccessMessage"]</div>
+		}
+
+		@if (TempData["ErrorMessage"] != null)
+		{
+			<div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+		}
+
+		<div class="col-md-6">
+			<h4>Send Us a Message</h4>
+			<form asp-action="SendMessage" method="post" class="p-4 border rounded shadow-sm bg-light">
+				<div class="mb-3">
+					<label asp-for="Name" class="form-label"></label>
+					<input asp-for="Name" class="form-control" required>
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Email" class="form-label"></label>
+					<input asp-for="Email" type="email" class="form-control" required>
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Message" class="form-label"></label>
+					<textarea asp-for="Message" class="form-control" rows="4" required></textarea>
+					<span asp-validation-for="Message" class="text-danger"></span>
+				</div>
+				<button type="submit" class="btn btn-primary w-100">Send Message</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

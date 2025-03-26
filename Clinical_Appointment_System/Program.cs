@@ -31,6 +31,7 @@ namespace Clinical_Appointment_System
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -38,9 +39,14 @@ namespace Clinical_Appointment_System
             app.UseAuthentication();
             app.UseAuthorization();
 
+
             app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+
+
 
             app.Run();
         }
