@@ -2,6 +2,8 @@ using ECommerceWeb.API.Middleware;
 using ECommerceWeb.Infrastructure;
 using ECommerceWeb.Application;
 using ECommerceWeb.Identity;
+using Microsoft.EntityFrameworkCore;
+using ECommerceWeb.Infrastructure.Context;
 
 
 namespace ECommerceWeb.API
@@ -12,8 +14,9 @@ namespace ECommerceWeb.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
 
+
+            // Add services to the container.
             builder.Services.AddApplicationServices();
             builder.Services.AddInterfaceServices(builder.Configuration);
             builder.Services.AddIdentityServices(builder.Configuration);
