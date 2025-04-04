@@ -1,0 +1,13 @@
+<div class="products-container">
+    <h2 class="products-title">Our Products</h2>
+    <div class="product-grid">
+        <div class="product-card" *ngFor="let product of products">
+            <h3 class="product-name">{{ product.pName }}</h3>
+            <p class="product-desc">{{ product.description }}</p>
+            <p class="product-price">₹{{ product.price }}/-</p>
+            <p class="product-stock">{{ product.stock }} left</p>
+            <p class="product-category">Category: {{ product.categoryId }}</p>
+            <button class="btn btn-warning" (click)="deleteProduct(product.productId)">Delete</button>
+        </div>
+    </div>
+</div>

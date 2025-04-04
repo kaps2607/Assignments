@@ -1,0 +1,51 @@
+/* Center the register box */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6b6b, #556270);
+}
+
+/* Register box styling */
+.register-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* Register title */
+.register-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+/* Form fields */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.btn-block {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Login text */
+.login-text {
+    margin-top: 15px;
+}
+.login-text a {
+    color: #ff6b6b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login-text a:hover {
+    text-decoration: underline;
+}

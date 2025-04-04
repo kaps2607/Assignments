@@ -8,5 +8,5 @@ using MediatR;
 
 namespace ECommerceWeb.Application.Features.CartFeature.Command.UpdateCommand
 {
-    public record UpdateCartItemCommand(int CartItemId, int Quantity) : IRequest<CartItem>;
+    public record UpdateCartItemCommand(CartItem cartItem) : IRequest<CartItem>;
 }

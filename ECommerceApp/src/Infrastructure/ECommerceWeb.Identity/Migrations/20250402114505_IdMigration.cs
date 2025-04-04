@@ -4,10 +4,8 @@
 
 namespace ECommerceWeb.Identity.Migrations
 {
-    /// <inheritdoc />
     public partial class IdMigration : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.UpdateData(
@@ -25,7 +23,6 @@ namespace ECommerceWeb.Identity.Migrations
                 values: new object[] { "32e12a01-d58f-44fb-aba9-ccd86b0e6a2a", "AQAAAAIAAYagAAAAEDMeRjuFQoeW8As/MtNLAecWV387KXHovmQ43EpOyB9w3QuFNIrOKLFQVQhnNX0WaA==", "aa4b0e67-ec0c-4d69-9565-8d288796895c" });
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.UpdateData(

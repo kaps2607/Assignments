@@ -60,13 +60,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "productId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "quantity",
-        "Type": "System.Int32",
+        "Name": "cartItem",
+        "Type": "ECommerceWeb.Domain.CartItem",
         "IsRequired": true
       }
     ],
@@ -85,19 +80,14 @@
   {
     "ContainingType": "ECommerceWeb.API.Controllers.CartController",
     "Method": "UpdateCartItem",
-    "RelativePath": "api/Cart/{cartItemId}",
+    "RelativePath": "api/Cart",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cartItemId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "command",
-        "Type": "ECommerceWeb.Application.Features.CartFeature.Command.UpdateCommand.UpdateCartItemCommand",
+        "Name": "cartItem",
+        "Type": "ECommerceWeb.Domain.CartItem",
         "IsRequired": true
       }
     ],

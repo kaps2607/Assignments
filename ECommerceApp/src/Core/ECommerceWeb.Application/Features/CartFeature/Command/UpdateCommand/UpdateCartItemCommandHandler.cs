@@ -20,14 +20,7 @@ namespace ECommerceWeb.Application.Features.CartFeature.Command.UpdateCommand
 
         public async Task<CartItem> Handle(UpdateCartItemCommand request, CancellationToken cancellationToken)
         {
-            var cartItem = new CartItem
-            {
-                CartItemId = request.CartItemId,
-                Quantity = request.Quantity
-
-            };
-
-            return await _cartRepository.UpdateCartItemAsync(request.CartItemId, cartItem);
+            return await _cartRepository.UpdateCartItemAsync(request.cartItem);
         }
     }
 }

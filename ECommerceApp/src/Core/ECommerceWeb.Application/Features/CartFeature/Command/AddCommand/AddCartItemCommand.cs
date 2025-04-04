@@ -9,6 +9,6 @@ using MediatR;
 namespace ECommerceWeb.Application.Features.CartFeature.Command.AddCommand
 {
 
-    public record AddCartItemCommand(string userId, int quantity, int productId) : IRequest<CartItem>;
+    public record AddCartItemCommand(CartItem cartItem) : IRequest<CartItem>;
 
 }

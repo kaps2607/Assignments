@@ -11,9 +11,8 @@ namespace ECommerceWeb.Application.Interfaces
     {
         Task<IEnumerable<CartItem>> GetCartItemsAsync(string userId);
         Task<CartItem> GetCartItemByIdAsync(int cartItemId);
-        Task<CartItem> AddCartItemAsync(string userId, int quantity, int productId);
-        //Task<CartItem> AddCartItemAsync(CartItem cartItem);
-        Task<CartItem> UpdateCartItemAsync(int cartItemId, CartItem cartItem);
+        Task<CartItem> AddCartItemAsync(CartItem cartItem);
+        Task<CartItem> UpdateCartItemAsync(CartItem cartItem);
         Task<bool> DeleteCartItemAsync(int cartItemId);
     }
 }

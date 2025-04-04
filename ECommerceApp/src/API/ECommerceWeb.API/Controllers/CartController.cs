@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceWeb.API.Controllers
 {
-    [Authorize(Roles = "User")]
+    //[Authorize(Roles = "User")]
     [Route("api/[controller]")]
     [ApiController]
     public class CartController : Controller
@@ -25,20 +25,14 @@ namespace ECommerceWeb.API.Controllers
             _mediator = mediator;
             _userManager = userManager;
         }
-        [HttpPost]
-        public async Task<ActionResult<CartItem>> AddCartItem([FromQuery] int productId, [FromBody] int quantity)
-        {
-            var userEmail = _userManager.GetUserId(User);
-            var user = await _userManager.FindByEmailAsync(userEmail);
-            if (user.Id == null)
-            {
-                return Unauthorized();
-            }
+        
 
-            var cartItemCommand = new AddCartItemCommand(user.Id, quantity, productId);
-            var cartItem = await _mediator.Send(cartItemCommand);
-            //return CreatedAtAction(nameof(GetCartItemById), new { cartItemId = cartItem.CartItemId }, cartItem);
-            return Ok(cartItem);
+        [HttpPost]
+        public async Task<ActionResult<CartItem>> AddCartItem(CartItem cartItem)
+        {
+            var cartItemCommand = new AddCartItemCommand(cartItem);
+            var carttItem = await _mediator.Send(cartItemCommand);
+            return Ok(carttItem);
         }
 
         [HttpGet("{userId}")]
@@ -48,16 +42,11 @@ namespace ECommerceWeb.API.Controllers
             return Ok(cartItems);
         }
 
-        [HttpPut("{cartItemId}")]
-        public async Task<IActionResult> UpdateCartItem(int cartItemId, UpdateCartItemCommand command)
+        [HttpPut]
+        public async Task<IActionResult> UpdateCartItem(CartItem cartItem)
         {
-            if (cartItemId != command.CartItemId)
-            {
-                return BadRequest("Cart item ID mismatch");
-            }
-
-            await _mediator.Send(command);
-            return NoContent();
+            var updatedItem = await _mediator.Send(new UpdateCartItemCommand(cartItem));
+            return Ok(updatedItem);
         }
 
 

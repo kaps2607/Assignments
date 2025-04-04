@@ -47,7 +47,7 @@ namespace ECommerceWeb.API.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult<Orders>> AddOrder([FromQuery] int productId, [FromBody] int quantity)
+        public async Task<ActionResult<Orders>> AddOrder(int userId,[FromQuery] int productId, [FromBody] int quantity)
         {
             var userEmail = _userManager.GetUserId(User);
             var user = await _userManager.FindByEmailAsync(userEmail);

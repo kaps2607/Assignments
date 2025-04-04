@@ -14,6 +14,13 @@ namespace ECommerceWeb.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularApp",
+                    builder => builder.AllowAnyOrigin()
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader());
+            });
 
 
             // Add services to the container.
@@ -26,6 +33,8 @@ namespace ECommerceWeb.API
             builder.Services.AddSwaggerGen();
             builder.Services.AddCors();
             var app = builder.Build();
+
+            app.UseCors("AllowAngularApp");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

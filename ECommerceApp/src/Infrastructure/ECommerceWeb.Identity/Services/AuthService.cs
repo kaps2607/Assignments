@@ -17,7 +17,6 @@ namespace ECommerceWeb.Identity.Services
         readonly SignInManager<ApplicationUser> _signInManger;
         readonly JwtSettings _jwtSettings;
 
-        //constrcutor
         public AuthService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IOptions<JwtSettings> jwtSettings)
         {
             _userManager = userManager;
@@ -47,21 +46,14 @@ namespace ECommerceWeb.Identity.Services
 
 
             };
-            // string userJwtSecurityTokenHandler = JsonConvert.SerializeObject(new { Token = response.Token, Name = response.UserName });
             return response;
         }
 
         private async Task<JwtSecurityToken> GenerateToken(ApplicationUser user)
         {
-            //Get User Information from Db
             var userClaims = await _userManager.GetClaimsAsync(user);
-            //List of roles that user belongs To
             var roles = await _userManager.GetRolesAsync(user);
-            //convert roles list into Claims
-            //new Claim(claimTypes.Role,"Admin")
-
             var roleClaims = roles.Select(roles => new Claim(ClaimTypes.Role, roles)).ToList();
-            //Create Claims
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub,user.UserName),
